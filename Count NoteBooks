@@ -1,0 +1,6 @@
+N = int(input())
+pages_per_kg = 1000
+pages_per_notebook = 100
+total_pages = N * 1000
+notebooks = N * 1000 // 100
+print(notebooks)

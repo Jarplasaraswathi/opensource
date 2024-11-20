@@ -1,0 +1,8 @@
+def vignesh_age_when_charan_was_x(x):
+    charan_age_now = 25
+    vignesh_age_now = 10
+    age_difference = 25 - 10
+    vignesh_age = x - (25 - 10)
+    return vignesh_age
+x = int(input())
+print(vignesh_age_when_charan_was_x(x))
